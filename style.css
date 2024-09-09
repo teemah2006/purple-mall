@@ -1,0 +1,709 @@
+body{
+    padding: 50px;
+    padding-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+:root{
+    --thumb-color: purple;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+input,button{
+    border-radius: 0px !important;
+}
+input:focus{
+    outline: none !important;
+    background-color: initial !important;
+}
+.nav-content{
+    display: flex;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+.nav-container a{
+    color: rgb(110, 4, 155);
+    font-size: larger;
+    margin: 15px;
+}
+.navbar-links{
+    margin-left: 20px;
+}
+
+.all-search-bar{
+    height: 4.5rem;
+    width: 450px;
+}
+.search-btn{
+    margin-left: -8px;
+    border-left: none;
+    width: 60px
+}
+form .search-input{
+    background-color: rgb(230, 202, 230);
+    border: 1.5px solid rgb(147, 103, 165);
+    border-right: none;
+}
+.btn-search{
+    border: 1.5px solid rgb(147, 103, 165);
+    background-color: rgb(218, 176, 218);
+    color: rgb(110, 4, 155);
+    border-left: none;
+}
+.search-btn:hover{
+    background-color: rgb(197, 143, 197);
+    border: 1.5px solid rgb(147, 103, 165);
+}
+
+
+.search-bar{
+    box-shadow: 0 2px 3px rgb(168, 167, 167);
+    
+}
+
+.main-content{
+    margin-top: 50px;
+}
+
+.admin-img{
+    width: 300px;
+    height: 350px;
+    border-radius: 0;
+}
+.sect-1 .next-icon{
+    color: blueviolet;
+    font-size: 3rem;
+}
+.sect-2{
+    padding: 20px;
+    background-color: rgb(250, 248, 250);
+}
+
+.about{
+    display: flex;
+    
+}
+.about .aboutus{
+    margin-left: 80px;
+    width: 50%;
+}
+
+.about .aboutus p{
+    font-size: 20px;
+}
+.about .aboutus h1{
+    font-weight: bold;
+}
+.about .aboutus p:last-of-type{
+    margin: 20px auto;
+}
+
+#btn-buy-phone{
+    background-color: rgb(229, 209, 229);
+    color:rgb(110, 4, 155);
+    border-color: plum;
+    margin: 10px 40px 0 0;
+}
+#btn-buy-computer{
+    background-color: rgb(203, 179, 226);
+    color: rgb(110, 4, 155);
+    border-color: blueviolet;
+    margin-top: 10px;
+}
+
+
+
+.sect-2 .phones{
+    /* display: grid;
+    grid-template-columns: auto auto; */
+    margin-top: 50px;
+}
+
+.sect-2 .phones .phone-nav{
+    height: 850px;
+    width: 300px;
+    background-color: rgb(234, 233, 233);
+    /* padding: 10px; */
+}
+
+.sect-2 .phones .phone-shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items:normal; */
+}
+
+ .phone-card{
+    margin: 0 auto 10px auto;
+    background-color: rgb(251, 238, 251);
+    border-color: transparent;
+    border-radius: 0;
+    height: max-content;
+    
+    
+    
+}
+
+ .phone-card .cart-btn{
+    background-color: rgb(203, 179, 226);
+    color: rgb(110, 4, 155);
+    border-color: blueviolet;
+}
+
+ .phone-card .card-image{
+    width: auto;
+    padding: 0px 20px;
+    height: 10rem;
+    box-sizing: border-box;
+}
+
+.sect-2 .phones .phone-shop .phone-card .card-title{
+    font-weight: bold;
+}
+
+.phones .phone-nav .price-range{
+    padding-bottom: 30px;
+    border-bottom: 1.5px solid rgb(206, 205, 205);
+    margin-bottom: 20px;
+}
+
+.phones .phone-nav  h3{
+    font-weight: bold;
+    color: rgb(120, 119, 119);
+    margin-bottom: 40px;
+}
+
+.phones .phone-nav .price-range input[type="number"]{
+    height: 2.5rem;
+    border: 1px solid blueviolet;
+    background-color: rgb(234, 228, 234);
+    color: rgb(142, 140, 140);
+    font-weight: 600;
+    margin: 5px;
+    box-shadow: 2px 3px 3px rgb(142, 140, 140);
+    accent-color: blueviolet !important;
+}
+
+.range-{
+    accent-color: blueviolet !important;
+    position: relative;
+    margin: 0;
+    width: 40%;
+    font-size: 3px;
+}
+
+#customRange1{
+    transform: rotate(180deg);
+    margin-right: -10px;
+}
+
+.ranges{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    height: max-content;
+}
+
+.phones .phone-nav .price-range .btn-range{
+    background-color: rgb(229, 209, 229);
+    color:rgb(110, 4, 155);
+    border-color: blueviolet;
+    height: 2.5rem;
+    font-weight: 600;
+    
+}
+
+.phones .phone-nav .brand-input{
+    border: 1px solid blueviolet;
+    border-right: none;
+    background-color: rgb(234, 228, 234);
+    /* color: rgb(169, 167, 167); */
+    font-size: 20px;
+    margin: 0;
+}
+
+.btn-search-brand{
+    background-color: rgb(229, 209, 229);
+}
+.brand-search-bar{
+    margin-bottom: 30px;
+}
+
+.phones .phone-nav .form-check-input{
+    background-color: rgb(222, 215, 229);
+    border-color: blueviolet;
+    font-size: 20px;
+
+
+}
+.phones .phone-nav .form-check-input:checked{
+    background-color:blueviolet;
+    color: blueviolet;
+    
+}
+.phones .phone-nav .form-check{
+    margin-left: 10px;
+    margin-bottom: 5px;
+
+}
+.phones .phone-nav .form-check-label{
+    font-size: 18px;
+}
+
+.phones .phone-nav .form-check .brand-quantity{
+    float: right;
+    margin-right: 10px;
+}
+
+.page-controls .control{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: 5px auto;
+    /* left: 40%; */
+    background-color: rgb(251, 238, 251);
+    width: 60%;
+    padding: 0 40px;
+}
+
+.page-controls .control li{
+    margin: 20px 50px;
+    color: rgb(251, 238, 251);
+    background-color: rgb(232, 199, 232);
+    border-radius: 0;
+    width: 50px;
+    text-align: center;
+}
+.page-controls .control li a {
+    color: blueviolet;
+    background-color: rgb(232, 199, 232);
+    border-radius: 0;
+    border: none;
+    font-size: larger;
+}
+.page-controls .control .active span{
+    background-color: rgb(203, 179, 226);
+    color: blueviolet;
+    height: 100%;
+    font-size: larger;
+    border: none;
+}
+
+
+.page-controls .control .pg-1, .page-controls .control .pg-2,.page-controls .control .pg-3{
+    margin: 20px 10px;
+}
+
+
+.phone-nav hr{
+    margin: 30px 15px;
+}
+
+.grid-container{
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.filled-star{
+    color: rgb(125, 79, 167);
+}
+
+.ratings div{
+    margin: 5px 10px ;
+}
+
+.ratings div span{
+    float: right;
+    margin-right: 10px;
+}
+
+.ratings div .bi-circle-fill{
+    margin-right: 30px;
+    font-size: 20px;
+    position: relative;
+    background-color: rgb(222, 215, 229);
+    color: rgb(222, 215, 229);
+    top:0;
+    border: 1px solid blueviolet;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+.contact{
+    margin-top: 60px;
+}
+.contact .heading{
+    text-align: center;
+    
+}
+
+.contact .heading h1{
+    font-weight: bold;
+}
+.contactUs{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(251, 238, 251);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contactUs .logo{
+    background-color:rgb(153, 84, 216);
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    color: rgb(249, 238, 238);
+}
+
+.contactUs .icon{
+    margin: 20px 20px;
+}
+
+ .contactUs> div{
+    display: grid;
+    grid-template-columns: max-content auto;
+    margin-top: 20px;
+
+}
+
+ .contactUs h4{
+    font-weight: 600;
+}
+
+ .contactUs p, .contact .contactUs address{
+    font-size: 18px;
+}
+
+.contactUs .social-icons .social-icon{
+    color: rgb(153, 84, 216);
+    font-size: 25px;
+    margin: 7px;
+}
+
+.contact .message-map{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 20px auto;
+}
+
+.contact .message-map .map {
+   color: rgb(246, 197, 246);;
+}
+
+.contact .message-map .messageUs textarea, .contact .message-map .messageUs input{
+    border-radius: 0;
+    border: 1px solid blueviolet;
+    background-color: rgb(250, 242, 250);
+    font-weight: 600;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.contact .message-map .messageUs input::placeholder, .contact .message-map .messageUs textarea::placeholder{
+    color:rgb(173, 172, 172);
+    font-weight: 600;
+
+}
+
+.contact .message-map .messageUs #btn-send{
+    border-radius: 7px !important;
+    border: 1px solid blueviolet;
+    background-color: rgb(219, 202, 235);
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    margin: 15px auto 0 auto;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: larger;
+    width: 100%;
+}
+
+#footer h5{
+    font-size: 1.5rem;
+    border-bottom: 3px solid plum;
+    padding-bottom: 10px;
+    width: 50px;
+    text-wrap: nowrap;
+    color: rgb(88, 7, 164);
+    margin-bottom: 30px;
+}
+
+#footer .foot-address div{
+    margin: 10px auto;
+    
+}
+
+#footer .foot-address div .logo{
+    color:rgb(150, 82, 214);
+    background-color: rgb(241, 235, 241);
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+#footer .foot-address .social-icons{
+    margin: 20px auto;
+}
+
+#footer .foot-address .social-icons .social-icon{
+    font-size: 1.5rem;
+    margin: 3px;
+    background-color: rgb(150, 82, 214);
+    border-radius: 50%;
+    color: white;
+    padding: 8px;
+}
+
+#footer .links li{
+    list-style-type: none;
+    margin: 10px auto;
+}
+
+#footer .links .bulletin{
+    color: rgb(150, 82, 214);
+    margin-right: 15px;
+}
+
+#footer .deals{
+    position: relative;
+    box-sizing: border-box;
+    left: 50px;
+}
+
+#footer .deals .send-email input{
+    height: 60px;
+    position: relative;
+    font-size: 23px;
+    border-radius: 0;
+    border-left: none;
+    border-color: blueviolet;
+    background-color: rgb(249, 237, 249);
+    box-shadow: 2px 3px 3px rgb(142, 140, 140);
+    width: 22rem;
+
+}
+#footer .deals .send-email .email-logo{
+    background-color: rgb(249, 237, 249);
+    color: rgb(150, 82, 214);
+    border-radius: 0;
+    border-right: none;
+    border-color: blueviolet;
+    font-size: larger;
+    box-shadow: 2px 3px 3px rgb(142, 140, 140);
+}
+
+#footer .deals .send-email .send-btn{
+    position: relative;
+    left: -110px;
+    top: 5px;
+    border-radius: 5px !important;
+   border: 1px solid blueviolet;
+    background-color: rgb(219, 202, 235);
+    color: blueviolet;
+    height: max-content;
+    font-weight: 700;
+}
+
+/* cart styling */
+.tableContainer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.cart-container{
+    background-color: rgb(246, 243, 243);
+}
+
+.btn-contShopping{
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px !important;
+    background-color: rgb(228, 218, 237);
+    color: rgb(116, 27, 200);
+    font-weight: 600;
+    padding: 10px;
+    border-color: rgb(116, 27, 200);
+}
+
+.btn-contShopping i{
+    margin-right: 10px;
+}
+
+
+.cart-table thead{
+    background-color: rgb(219, 170, 219);
+    color:rgb(116, 27, 200);
+}
+
+.cart-table tbody{
+    background-color: rgb(249, 227, 249);
+}
+
+.summary{
+    margin-left: 20px;
+
+}
+.summary h5{
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.Subtotal{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#subtotal, #total{
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 25px;
+}
+
+.Total{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+#checkout{
+    padding: 10px 40px;
+    width: 90%;
+    margin: 40px auto;
+    border-radius: 5px !important;
+    background-color: rgb(224, 212, 229);
+    color:rgb(116, 27, 200);
+    border-color: rgb(116, 27, 200);
+    font-weight: 600;
+}
+
+.phone-description{
+    font-weight: 700;
+    font-size: large;
+}
+
+.caption{
+    margin-top: 10px;
+    color:rgb(120, 119, 119);
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.purple{
+    color: rgb(116, 27, 200);
+    font-weight: 700;
+}
+
+.item-quantity{
+
+    border: 1px solid blueviolet;
+    padding: 2px 7px !important;
+}
+
+.deduct, .add{
+    background-color: rgb(249, 227, 249);
+    border: 1px solid blueviolet;
+}
+
+.phonedetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    background-color: rgb(252, 246, 252);
+    padding: 40px;
+    justify-content: space-around;
+    box-sizing: border-box;
+    height: 600px;
+}
+
+.phone-view{
+    /* height: 600px; */
+    width: 60%;
+}
+
+.carousel-images img{
+    height: 400px;
+
+}
+
+.indicators{
+    position: absolute;
+    bottom: 0;
+    top: 400px;
+    
+
+}
+
+.indicators img{
+    margin: 20px;
+}
+
+.grey{
+    font-size: 20px;
+    color: rgb(155, 155, 155);
+}
+
+.next-icon{
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+.describephone h3{
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+.describephone strong{
+    font-size: 20px;
+}
+
+.phoneprice{
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.phonequantity{
+    font-size: larger;
+}
+
+.phonequantity .item-quantity{
+    padding: 10px 20px !important;
+    background-color: rgb(237, 231, 249);
+    margin-right: 0;
+    font-weight: 700;
+}
+
+.phonequantity .deduct,.phonequantity .add{
+    margin: 0;
+    background-color: rgb(233, 227, 245);
+    color: rgb(172, 169, 169);
+    font-size:larger;
+}
+
+.items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.items .phone-card{
+    margin: auto 10px;
+}
+
+.head{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(252, 246, 252);
+    margin: 20px auto;
+    padding: 15px ;
+}

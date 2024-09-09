@@ -1,0 +1,56 @@
+[
+    {
+        "images": ["./media/Galaxy-S22-S22-pr_main4.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwfnGiTJ6OdeUraWcuL2WH1INq6X7aUQMlQ&s"],
+        "brand": "Samsung",
+        "name": "Galaxy s22",
+        "description": "Samsung Galaxy s22 Dual SIM - 8GB RAM - 256GB - 5G - Gold",
+        "product_code": "201",
+        "price": "1,000,000"
+    },
+
+    {
+        "images": ["./media/galaxya05s.avif","https://i0.wp.com/udaipurkiran.com/wp-content/uploads/2023/09/Samsung-Galaxy-A05s.webp?fit=900%2C600&ssl=1"],
+        "brand": "Samsung",
+        "name": "Galaxy a05s",
+        "description": "Samsung Galaxy Dual SIM 128GB 4GB RAM -iOS Light violet",
+        "product_code": "202",
+        "price": "224,000"
+    },
+    {
+        "images": ["./media/galaxya15.avif","https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc4/Samsung_Galaxy_A15_leak.jpeg"],
+        "brand": "Samsung",
+        "name": "Galaxy a15",
+        "description": "Samsung Galaxy 5G x Octa-core Processor light blue",
+        "product_code": "203",
+        "price": "290,000"
+    },
+
+    {
+        "images": ["./media/galaxya25.webp","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8XUNGVQWwPPvuYTKBz-r5eX4dJMFBpPbyGQ&s"],
+        "brand": "Samsung",
+        "name": "Galaxy a25",
+        "description": "Samsung Galaxy 5G 128GB+6GB RAM-iOS Black",
+        "product_code": "204",
+        "price": "400,000"
+    },
+
+    {
+        "images": ["./media/galaxys24.webp","https://samsungprice.ng/wp-content/uploads/2024/03/galaxy-s24-ultra-highlights-kv-590x531.webp"],
+        "brand": "Samsung",
+        "name": "Galaxy s24",
+        "description": "Samsung Galaxy 256GB RAM-iOS Titanium grey",
+        "product_code": "205",
+        "price": "2,000,000"
+    },
+
+    {
+        "images": ["https://www.3chub.com/cdn/shop/files/A55_black1-removebg-preview.png?v=1715355133","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMjDTYm-eXjKWY5hyR4j8aN-Hcj0juMX5Q0A&s"],
+        "brand": "Samsung",
+        "name": "Galaxy 55",
+        "description": "Samsung Galaxy 5G A556E|128GB + 8GB Black",
+        "product_code": "206",
+        "price": "689,000"
+    }
+
+]
+

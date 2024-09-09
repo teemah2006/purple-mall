@@ -1,0 +1,57 @@
+[
+    {
+        "images": ["./media/apple_iphone_13.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4g8mLNKabqQKtYfJNKI2uA_Z0SL9BkiJkqw&s"],
+        "brand": "Apple",
+        "name": "Apple Iphone 13",
+        "description": "Apple Iphone 13-128GB-4GB RAM-iOS 15-Blue",
+        "product_code": "101",
+        "price": "1,000,000"
+    },
+
+    {
+        "images": ["data:image/webp;base64,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","https://rukminim2.flixcart.com/image/850/1000/kg8avm80/mobile/j/f/9/apple-iphone-12-dummyapplefsn-original-imafwg8dszwspt8f.jpeg?q=90&crop=false"],
+        "brand": "Apple",
+        "name": "Apple Iphone 12",
+        "description": "Apple Iphone 12-256GB 4GB RAM-2815 mAh-Blue",
+        "product_code": "102",
+        "price": "480,000"
+    },
+
+    {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJCrSkNLXOoHtOzlkuFbbMRW7BfTVq5_BOmA&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCDTq24by_UhFRtAki21OsECySzLFfc-i7ng&s"],
+        "brand": "Apple",
+        "name": "Apple Iphone 11 pro",
+        "description": "Apple Iphone 11 pro-64GB 4GB RAM-silver",
+        "product_code": "103",
+        "price": "400,000"
+    },
+
+    {
+        "images": ["https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/86/6226212/1.jpg?8196","https://www.3chub.com/cdn/shop/files/14pro2.jpg?v=1713272803&width=1200"],
+        "brand": "Apple",
+        "name": "Apple Iphone 14 pro",
+        "description": "Apple Iphone 14 pro-128GB 6GB RAM-iOS 15-Gold",
+        "product_code": "104",
+        "price": "950,000"
+    },
+
+    {
+        "images": ["https://www.istore.com.ng/cdn/shop/files/iPhone_15_Pro_Max_Natural_Titanium_PDP_Image_Position-1__WWEN_1200x.png?v=1697038851","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtwtgOxGXqxfYjQrO0lOnuG6l4MlZjpUGDcA&s"],
+        "brand": "Apple",
+        "name": "Apple Iphone 15 pro max",
+        "description": "Apple Iphone 15 pro max-256GB 8GB RAM-Gold",
+        "product_code": "105",
+        "price": "2,179,000"
+    },
+
+    {
+        "images": ["https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/53/5080172/1.jpg?3909","https://www.cnet.com/a/img/resize/86b7b42fc9c90ea974955de4493a96640390f69a/hub/2018/10/31/b2c6b918-98dc-4029-8c15-65f5fb78ee33/dsc-8079.jpg?auto=webp&fit=crop&height=675&width=1200"],
+        "brand": "Apple",
+        "name": "Apple Iphone XR",
+        "description": "Apple Iphone XR-64GB 3GB RAM-iOS 15-red",
+        "product_code": "106",
+        "price": "300,000"
+    }
+
+]
+
